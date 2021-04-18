@@ -1,3 +1,5 @@
+/* CUSTOM CSS BRIAN */
+/* MAIN */
 body {
 	background-image: url('../login-system/images/dubskyline5.jpg') ; 
   	-webkit-background-size: cover;
@@ -20,6 +22,7 @@ body {
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
+/* NAVBA */
 nav.navbar.navbar-default {
     background: white;
     width: 100%;
@@ -43,8 +46,14 @@ img.navbar_brand:hover {
     opacity: 0;
   }
 }
+a.navbar-brand {
+    background: transparent;
+}
 a.navbar-brand:hover {
     opacity: unset;
+}
+a.nav-link {
+    background: transparent;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #4f2d7f;
@@ -63,33 +72,7 @@ a.navbar-brand:hover {
     border: 1px solid #4F2D7F;
   }
 }
-.overlay {
-	position: absolute;
-	background-repeat: no-repeat;
-	bottom: 0;
-	left: 10%;
-	top: 22%;
-	right: 0;
-	background-image: url(../login-system/images/gt_logo_text.png);
-	overflow: hidden;
-	width: 0;
-	height: 100%;
-	transition: 2s ease;
-}
-.navbar-header:hover .overlay {
-  width: 100%;
-}
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
+/* LOGO EFFECT */
 #dropdownMenuButton {
     background: none;
     color: #4f2d7f;
@@ -157,14 +140,6 @@ a.navbar-brand:hover {
     text-align: right;
   }
 }
-/*.dropdown>.dropdown-toggle:active {
-  Without this, clicking will make it sticky*/
-    /*// pointer-events: none;
-}
-.dropdown-menu:hover {
-    margin-top: 30px;
-    border: 1px solid #4F2D7F;
-}*/
 @media (max-width: 991px) {
 .dropdown:hover {
     display: grid;
@@ -280,6 +255,7 @@ a:hover{
     margin-left: 0px;
     padding-left: 0px;
 }
+/* TO DO MAIN BODY */
 .wrapper {
     box-shadow: 0 2px 5px rgba(0,0,0,.3);
     width: 400px;
@@ -449,6 +425,7 @@ button.submit_button.button_slide.slide_right.logout_button {
 a.logout_text {
     padding:  0px;
     margin: 0px;
+    background:transparent;
 }
 a.logout_text:hover {
     opacity: 1;
