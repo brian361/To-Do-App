@@ -24,4 +24,4 @@ username - john
 password - abc
 
 6.Anything Extra
-Given more time I would have styled the page more, header, footer.
+Given more time I would have styled the page more and run more tests.
